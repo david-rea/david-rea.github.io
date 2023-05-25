@@ -3,6 +3,14 @@
     font-family: Arial;
 }
 
+/* Styling for body elements */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 h1 {
     background-color: #616161;
     width: 100%;
@@ -41,33 +49,13 @@ h1 {
     color: white;
 }
 
-/* Styling for body elements */
-body {
-    margin: 0;
-}
-
-.footer {
+footer {
     background-color: #333;
-    overflow: hidden;
-    left: 0;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    margin-top: auto;
+    padding: 1rem;
     color: white;
-}
-
-.footer a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 28px;
-    text-decoration: none;
-}
-
-.cv {}
-
-.cv h2 {
-    
 }
 
 .cv ul {
