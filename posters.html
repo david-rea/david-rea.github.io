@@ -1,16 +1,12 @@
 <html lang="en">
 
 <head>
-    <title>David Rea - Research</title>
+    <title>David Rea - Posters</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .social {
-            width: 5vw;
-            height: 5vw;
-            border-radius: 25%;
-            border: none;
-            background-size: contain;
-            cursor: pointer;
+        .poster {
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -25,14 +21,19 @@
     </div>
 
     <h1>2023 Gordon Research Conference</h1>
-    <div style="text-align: center; border: 2px solid red">
-        <img src="assets/GRC_2023_poster.png" style="border: 1px solid black">
+    <div style="text-align: center;">
+        <img class="poster" src="assets/GRC_2023_poster.png">
     </div>
 
     <!--Footer-->
     <footer>
-        <div style="float: left;">Zaffarano Hall<br>Ames, IA 50011<br>drea1@iastate.edu</div>
-        <button class="social" style="background-image: url(assets/github-mark.png);">github-mark.png</button>
+        <div style="padding-left: 1rem;">
+            <p style="float: left; font-size: 1vw; text-align: middle">A528 Zaffarano<br>Ames, IA 50011<br>drea1@iastate.edu</p>
+        </div>
+        <figure style="float: right;">
+            <button class="social" onclick="location.href='http://github.com/david-rea'" style="background-image: url(assets/github-mark.png);"></button>
+            <button class="social" onclick="location.href='http://jbsimon.com'" style="background-image: url(assets/hl_tau.jpg);"></button>
+        </figure>
     </footer>
 </body>
 

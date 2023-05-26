@@ -1,4 +1,8 @@
 * {
+    box-sizing: border-box;
+}
+
+html {
     font-size: 1vw;
     font-family: Arial;
 }
@@ -18,6 +22,16 @@ h1 {
     color: white;
     font-size: 2.5vw;
     text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Add a black background color to the top navigation */
@@ -49,19 +63,27 @@ h1 {
     color: white;
 }
 
+/* Style social link buttons in the footer */
+.social {
+    width: 3vw;
+    max-width: 100%;
+    height: 3vw;
+    border-radius: 25%;
+    border: none;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     background-color: #333;
+    color: white;
     bottom: 0;
     width: 100%;
     margin-top: auto;
-    padding: 1rem;
-    color: white;
-}
-
-.cv ul {
-    font-size: 1.5vw;
-}
-
-.cv li {
-    padding: 5px;
 }

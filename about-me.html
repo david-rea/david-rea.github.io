@@ -1,8 +1,17 @@
 <html lang="en">
 
 <head>
-    <title>David Rea - Research</title>
+    <title>David Rea - CV</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        li {
+            font-size: 1vw;
+            width: 50%;
+            padding: .5vw;
+            margin-inline: 1vw;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,44 +26,49 @@
     <p>Probably will replace this page with my CV</p>
 
     <!--Selected information from my CV-->
-    <div class=cv style="margin-inline: 30px;">
+    <div style="margin-inline: 30px;">
         <h2>Education</h2>
         <ul>
-            <li>Ph.D. Astrophysics <em>(in progress)</em><br>Iowa State University, Ames IA</li>
-            <li>B.S. Physics w/ Astrophys. conc. - 2019<br>George Mason University, Fairfax VA</li>
+            <li>Ph.D. Astrophysics, <em>in progress</em><br>Iowa State University, Ames IA</li>
+            <li>B.S. Physics w/ Astrophys. conc., 2019<br>George Mason University, Fairfax VA</li>
         </ul>
         <h2>Experience</h2>
         <ul>
-            <li>Graduate Research Assistant 2019-present<br><em>PI: Jacob B. Simon</em></li>
-            <li>Graduate Teaching Assistant 2019-2020</li>
-            <li>Undergraduate Research Assistant 2018-2019</li>
-            <li>Undergraduate Learning Assistant 2018-2019</li>
+            <li>Graduate Research Assistant, 2019-present<br><em>PI: Jacob B. Simon</em></li>
+            <li>Graduate Teaching Assistant, 2019-2020</li>
+            <li>Undergraduate Research Assistant, 2018-2019</li>
+            <li>Undergraduate Learning Assistant, 2018-2019</li>
         </ul>
         <h2>Publications</h2>
         <ul>
             <li><strong>Rea, David G.</strong>, Simon, Jacob B., et al.<br>
-                "Magnetically Driven Turbulence in Protoplanetary Disks",<br>
+                "Magnetically Driven Turbulence in Protoplanetary Disks",
                 in prep.</li>
             <li>Fu, Roger R., Steele, Sarah C., Simon, Jacob B., Teague, Richard, Najita, Joan, and <strong>Rea, David G.</strong><br>
                 "Implications for Chondrule Formation Regions and Solar Nebula Magnetic Fields from Statistical
-                Reanalysis of Chondrule Paleomagnetism",<br>
+                Reanalysis of Chondrule Paleomagnetism",
                 in prep.</li>
             <li>Colon, Knicole D., Kreidberg, Laura, Wellbanks, Luis [and 30 others, including <strong>Rea, David G.</strong>].<br>
                 "An Unusual Transmission Spectrum for the Sub-Saturn KELT-11b Suggestive of a Subsolar Water
-                Abundance”,<br>
+                Abundance”,
                 2020, AJ, 160, 280-305.</li>
         </ul>
     </div>
 
     <!--Link to download my complete CV-->
     <div style="margin-inline: 30px;">
-        <a>Download my complete CV</a>
+        <a href="assets/david_rea_cv.pdf" download="david_rea_cv">Download my complete CV</a>
     </div>
 
     <!--Footer-->
     <footer>
-        <div style="float: left;">Zaffarano Hall<br>Ames, IA 50011<br>drea1@iastate.edu</div>
-        <div style="background: green; float: right; width: 100px">Links</div>
+        <div style="padding-left: 1rem;">
+            <p style="float: left; font-size: 1vw; text-align: middle">A528 Zaffarano<br>Ames, IA 50011<br>drea1@iastate.edu</p>
+        </div>
+        <figure style="float: right;">
+            <button class="social" onclick="location.href='http://github.com/david-rea'" style="background-image: url(assets/github-mark.png);"></button>
+            <button class="social" onclick="location.href='http://jbsimon.com'" style="background-image: url(assets/hl_tau.jpg);"></button>
+        </figure>
     </footer>
 </body>
 

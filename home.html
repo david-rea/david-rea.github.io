@@ -4,24 +4,37 @@
     <title>David Rea</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="assets/hl_tau.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        button {
-            display: inline-block;
-            padding: 20px;
-            width: 200px;
+        .container {
+            display: flex;
             text-align: center;
-            cursor: pointer;
-            -webkit-transition: all 0.25s; /* chrome, safari, etc */
-            -moz-transition: all 0.25s; /* firefox */
-            -o-transition: all 0.25s; /* opera */
-            transition: all 0.25s;
+            border: 2px solid blue;
         }
-        button:hover {
-            background-color: green
+        div {
+            border: 2px solid red;
+            margin: 10px;
+            padding: 10px;
+        }
+        figure {
+            border: 1px solid green;
+        }
+        .social {
+            background-size: contain;
+        }
+        .flex-right {
+            flex: 50%;
+        }
+        .flex-left {
+            flex: 50%;
+        }
+        @media (max-width: 800px) {
+            .flex-right, .flex-left {
+                flex: 100%;
+            }
         }
     </style>
 </head>
-
 
 <body>
     <!--Navigation Bar-->
@@ -32,13 +45,35 @@
         <a href="posters.html">Posters</a>
     </div>
 
-    <h1>Hello there</h1>
-    <p>Hello</p>
+    <div class="container">
+        <div style="flex: 1; margin-top: auto">
+            <img src="assets/jack.png">
+            <div style="color: black; position: relative; text-align: center;">Some Text</div>
+        </div>
+        <div style="flex: 1; margin-bottom: auto;">
+            This is where I would talk about something
+        </div>
+    </div>
 
     <!--Footer-->
-    <footer>
-        <div style="float: left;">Zaffarano Hall<br>Ames, IA 50011<br>drea1@iastate.edu</div>
-        <a class="social" style="background-image: url(assets/github-mark.png);"></a>
+    <footer class="container">
+        <div style="flex: 1;">
+            <p style="float: left; font-size: 1vw; text-align: middle">
+                A528 Zaffarano<br>
+                Ames, IA 50011<br>
+                drea1@iastate.edu
+            </p>
+        </div>
+        <div style="flex: 1;">
+            <figure style="float: right;">
+                <button class="social" onclick="location.href='http://github.com/david-rea'" style="background-image: url(assets/github-mark.png);"></button>
+            </figure>
+        </div>
+        <div style="flex: 1;">
+            <figure style="float: right">
+                <button class="social" onclick="location.href='http://jbsimon.com'" style="background-image: url(assets/hl_tau.jpg);"></button>
+            </figure>
+        </div>
     </footer>
 </body>
 

@@ -3,6 +3,7 @@
 <head>
     <title>David Rea - Research</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -16,8 +17,8 @@
 
     <h1>Broad Overview</h1>
     <!--Want to align the contents of this division-->
-    <div>
-        <p style="text-align: center; width:66%">
+    <div class="container">
+        <p style="text-align: center; width: 66%;">
             My research focuses on the physics of planet formation - specifically at early
             times when gas turbulence plays an important role in determining whether mm-cm
             sized grains will grow into 100 km+ sized planetesimals
@@ -36,8 +37,13 @@
 
     <!--Footer-->
     <footer>
-        <div style="float: left;">Zaffarano Hall<br>Ames, IA 50011<br>drea1@iastate.edu</div>
-        <div style="background: green; float: right; width: 100px">Links</div>
+        <div style="padding-left: 1rem;">
+            <p style="float: left; font-size: 1vw; text-align: middle">A528 Zaffarano<br>Ames, IA 50011<br>drea1@iastate.edu</p>
+        </div>
+        <figure style="float: right;">
+            <button class="social" onclick="location.href='http://github.com/david-rea'" style="background-image: url(assets/github-mark.png);"></button>
+            <button class="social" onclick="location.href='http://jbsimon.com'" style="background-image: url(assets/hl_tau.jpg);"></button>
+        </figure>
     </footer>
 </body>
 
