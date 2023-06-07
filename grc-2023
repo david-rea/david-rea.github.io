@@ -1,11 +1,80 @@
 <html lang="en">
 
 <head>
-
+    <title>David Rea - GRC 2023</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/hl_tau.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            text-align: center;
+            border: 2px solid blue;
+        }
+        div {
+            border: 2px solid red;
+            margin: 10px;
+            padding: 10px;
+        }
+        figure {
+            border: 1px solid green;
+        }
+        .social {
+            background-size: contain;
+        }
+        .flex-right {
+            flex: 50%;
+        }
+        .flex-left {
+            flex: 50%;
+        }
+        @media (max-width: 800px) {
+            .flex-right, .flex-left {
+                flex: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <!--Navigation Bar-->
+    <div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="about-me.html">About Me</a>
+        <a href="research.html">Research</a>
+        <a href="posters.html">Posters</a>
+    </div>
 
+    <div class="container">
+        <div style="flex: 1; margin-top: auto">
+            <img src="assets/jack.png">
+            <div style="color: black; position: relative; text-align: center;">Some Text</div>
+        </div>
+        <div style="flex: 1; margin-bottom: auto;">
+            This is where I will put my GRC stuff
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="container">
+        <div style="flex: 1;">
+            <p style="float: left; font-size: 1vw; text-align: middle">
+                A528 Zaffarano<br>
+                Ames, IA 50011<br>
+                drea1@iastate.edu
+            </p>
+        </div>
+        <div style="flex: 1;">
+            <figure style="float: right;">
+                <button class="social" onclick="location.href='http://github.com/david-rea'" style="background-image: url(assets/github-mark.png);"></button>
+            </figure>
+        </div>
+        <div style="flex: 1;">
+            <figure style="float: right">
+                <button class="social" onclick="location.href='http://jbsimon.com'" style="background-image: url(assets/hl_tau.jpg);"></button>
+            </figure>
+        </div>
+    </footer>
 </body>
 
 </html>
