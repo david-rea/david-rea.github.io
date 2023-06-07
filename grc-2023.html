@@ -2,79 +2,86 @@
 
 <head>
     <title>David Rea - GRC 2023</title>
-    <link rel="stylesheet" href="styles.css">
+    <!--link rel="stylesheet" href="styles.css"-->
+    <!--This page should be not rely on others, while building up a framework-->
     <link rel="shortcut icon" href="assets/hl_tau.jpg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .container {
-            display: flex;
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            font-family: Arial;
+        }
+        .main {
+            float: left;
+            width: 50%;
+            padding: 0 20px;
+        }
+        .right {
+            float: left;
+            width: 50%;
+            padding: 15px;
+            margin-top: 7px;
             text-align: center;
-            border: 2px solid blue;
         }
-        div {
-            border: 2px solid red;
-            margin: 10px;
-            padding: 10px;
-        }
-        figure {
-            border: 1px solid green;
-        }
-        .social {
-            background-size: contain;
-        }
-        .flex-right {
-            flex: 50%;
-        }
-        .flex-left {
-            flex: 50%;
-        }
-        @media (max-width: 800px) {
-            .flex-right, .flex-left {
-                flex: 100%;
+        @media only screen and (max-width: 800px) {
+            /* For mobile phones: */
+            .main, .right {
+                width: 100%;
             }
+            .header {
+                font-size: 1vw;
+            }
+        }
+        .caption {
+            color:grey;
+        }
+        .header {
+            color: white;
+            background-color: grey;
+            text-align: center;
+            font-size: 50pt;
+            margin: 10;
+        }
+        .footer {
+            background-color: lightgrey;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
         }
     </style>
 </head>
 
 <body>
-    <!--Navigation Bar-->
-    <div class="topnav">
-        <a class="active" href="home.html">Home</a>
-        <a href="about-me.html">About Me</a>
-        <a href="research.html">Research</a>
-        <a href="posters.html">Posters</a>
+    <!--Header-->
+    <div class="header">
+        <strong>2023 Gordon Research Conference</strong>
     </div>
 
-    <div class="container">
-        <div style="flex: 1; margin-top: auto">
-            <img src="assets/jack.png">
-            <div style="color: black; position: relative; text-align: center;">Some Text</div>
+    <!--Responsive Block-->
+    <div style="overflow:auto">
+        <!--Poster-->
+        <div class="main">
+            <img src="../Downloads/GRC-2023-poster.pdf(1)/GRC-2023-poster.png" width="100%" style="border: 2px solid black">
         </div>
-        <div style="flex: 1; margin-bottom: auto;">
-            This is where I will put my GRC stuff
+
+        <div class="right">
+            <video controls width="100%">
+                <source src="assets/log_velocity.mp4" type="video/mp4">
+            </video>
+            <p class="caption">
+                Moive: This is a placeholder movie<br>
+                Movie: Vertical slice at y=0 of the turbulent velocity for the 5 AU, beta=+10^4 (aligned) case
+            </p>
         </div>
     </div>
 
     <!--Footer-->
-    <footer class="container">
-        <div style="flex: 1;">
-            <p style="float: left; font-size: 1vw; text-align: middle">
-                A528 Zaffarano<br>
-                Ames, IA 50011<br>
-                drea1@iastate.edu
-            </p>
-        </div>
-        <div style="flex: 1;">
-            <figure style="float: right;">
-                <button class="social" onclick="location.href='http://github.com/david-rea'" style="background-image: url(assets/github-mark.png);"></button>
-            </figure>
-        </div>
-        <div style="flex: 1;">
-            <figure style="float: right">
-                <button class="social" onclick="location.href='http://jbsimon.com'" style="background-image: url(assets/hl_tau.jpg);"></button>
-            </figure>
-        </div>
-    </footer>
+    <div class="footer">
+        A528 Zaffarano<br>Ames, IA 50011<br>drea1@iastate.edu
+    </div>
+    
 </body>
 
 </html>
