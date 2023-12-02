@@ -3,24 +3,16 @@
 <head>
     <title>David Rea</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="assets/hl_tau.jpg"/>
+    <link rel="shortcut icon" href="assets/solar_system_icon.svg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .container {
             display: flex;
             text-align: center;
-            border: 2px solid blue;
         }
         div {
-            border: 2px solid red;
             margin: 10px;
             padding: 10px;
-        }
-        figure {
-            border: 1px solid green;
-        }
-        .social {
-            background-size: contain;
         }
         .flex-right {
             flex: 50%;
@@ -37,44 +29,58 @@
 </head>
 
 <body>
-    <!--Navigation Bar-->
-    <div class="topnav">
-        <a class="active" href="home.html">Home</a>
-        <a href="about-me.html">About Me</a>
-        <a href="research.html">Research</a>
-        <a href="posters.html">Posters</a>
+
+<!--Banner-->
+    <div>
+        <img src="assets/green_bank_banner.jpg">
     </div>
 
+<!--About Myself-->
     <div class="container">
         <div style="flex: 1; margin-top: auto">
-            <img src="assets/jack.png">
-            <div style="color: black; position: relative; text-align: center;">Some Text</div>
+            <img src="assets/me.png">
+            <div style="color: black; position: relative; text-align: center;">Myself (above) and Bigfoot (left of frame)</div>
         </div>
-        <div style="flex: 1; margin-bottom: auto;">
-            This is where I would talk about something
+        <div style="flex: 1; margin-bottom: auto; text-align: left; font-size: 3vw;">
+            I am a Graduate Research Assistant at Iowa State University.
+            I use computer simulations to study planet forming environments around other stars.
         </div>
     </div>
 
-    <!--Footer-->
-    <footer class="container">
-        <div style="flex: 1;">
-            <p style="float: left; font-size: 1vw; text-align: middle">
-                A528 Zaffarano<br>
-                Ames, IA 50011<br>
-                drea1@iastate.edu
-            </p>
-        </div>
-        <div style="flex: 1;">
-            <figure style="float: right;">
-                <button class="social" onclick="location.href='http://github.com/david-rea'" style="background-image: url(assets/github-mark.png);"></button>
-            </figure>
-        </div>
-        <div style="flex: 1;">
-            <figure style="float: right">
-                <button class="social" onclick="location.href='http://jbsimon.com'" style="background-image: url(assets/hl_tau.jpg);"></button>
-            </figure>
-        </div>
-    </footer>
+<!--Buttons-->
+    <div class="buttons">
+        <a class="active" href="https://google.com">CV</a>
+        <a class="active" href="https://github.com/david-rea">GitHub</a>
+    </div>
+
+<!--Publications-->
+    <div class="container">
+        <p style="text-align: left">
+            PUBLICATIONS<br>
+            <br>
+            <strong>Rea, David G.</strong> & Simon, J. B. "Origins of Hall-driven Turbulence in the Inner Protoplanetary 
+            Disk" 2024, in prep<br>
+            <br>
+            Lim, J., <strong>Rea, David G.</strong>, Brouillette, O., Simon, J. B. and Carrera, D. 
+            "3D SI paper" 202X in prep<br>
+            <br>
+            <strong>Rea, David G.</strong>, Simon, J. B., Sengupta, D., Carrera, D., Lesur, G. 
+            "Magnetically Driven Turbulence in the Inner Protoplanetary Disk" 2024, in prep.<br>
+        </p>
+    </div>
+
+<!--Education-->
+    <div class="container">
+        <p style="text-align: left">
+            EDUCATION<br>
+            <br>
+            <strong>Ph.D. Astrophysics</strong>, Iowa State University, Ames, IA, 2025<br>
+            <br>
+            <strong>B.S. Physics</strong>, George Mason University, Fairfax, VA, 2019. Cum Laude<br>
+            <br>
+        </p>
+    </div>
+
 </body>
 
 </html>
