@@ -63,6 +63,27 @@ video {
     color: white;
 }
 
+.buttons {
+    color: black;
+    overflow: hidden;
+}
+
+.buttons a {
+    float: left;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 2vw;
+}
+
+.buttons a:hover {
+    background-color: grey;
+    color: white;
+}
+
 /* Style social link buttons in the footer */
 .social {
     width: 3vw;
