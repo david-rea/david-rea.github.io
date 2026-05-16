@@ -36,13 +36,13 @@ portrait_url: /assets/images/photos/me.jpg
 
 education:
 - name: Iowa State University
-  #logo: /assets/images/badges/MIT_Social_circle.png
+  logo: #/assets/images/badges/MIT_Social_circle.png
   position: >- 
     Department of Physics and Astronomy <br/>
     Ph.D. Student
   date: Aug 2019 - present
 - name: George Mason University
-  #logo: /assets/images/badges/PKU_red.png
+  logo: #/assets/images/badges/PKU_red.png
   position: B.S. in Physics
   date: Aug 2016 - May 2019
 
