@@ -37,11 +37,13 @@ portrait_caption: A handsome fellow.
 
 education:
 - name: Iowa State University
-  logo: /assets/images/empty_300x200.png
+# logo: /assets/images/empty_300x200.png
+  logo: /assets/images/badges/isu_athl_logo.png
   position: Ph.D. Astrophysics
   date: Aug 2019 - Aug 2026
 - name: George Mason University
-  logo: /assets/images/empty_300x200.png
+# logo: /assets/images/empty_300x200.png
+  logo: /assets/images/badges/gmu_monogram.png
   position: B.S. Physics
   date: Aug 2016 - May 2019
 
