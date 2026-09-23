@@ -7,8 +7,8 @@ pub:            "arXiv"
 pub_date:       "2026"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 #abstract: >-
-#  Gas turbulence in protoplanetary disks can persist with a physically motived ionization model. The midplane turbulence has the potential to drive dust grain collisional velocities that would result in grain destruction.
-cover:          /assets/images/covers/cover3.jpg
+# Gas turbulence in protoplanetary disks can persist with a physically motived ionization model. The midplane turbulence has the potential to drive dust grain collisional velocities that would result in grain destruction.
+cover:          /assets/images/covers/Baronett_etal_2026_cover.jpg
 authors:
   - Stanley Baronett
   - Wladimir Lyra
@@ -34,7 +34,7 @@ authors:
   - Andrew Youdin
 links:
   arXiv: https://arxiv.org/abs/2603.04558
-  ADS: https://ui.adsabs.harvard.edu/abs/2026arXiv260304558B/abstract
+  SciX: https://scixplorer.org/abs/2026arXiv260304558B/abstract
   Repo: https://github.com/pfitsplus/sicc
   Website: https://pfitsplus.github.io/research/code-comparisons/
 ---
