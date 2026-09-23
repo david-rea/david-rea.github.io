@@ -20,6 +20,6 @@ authors:
   - Caho-Chin Yang
   - Andrew Youdin
 links:
-  Paper: https://iopscience.iop.org/article/10.3847/1538-4357/ad47a2
+  IOP: https://iopscience.iop.org/article/10.3847/1538-4357/ad47a2
   ADS: https://ui.adsabs.harvard.edu/abs/2024ApJ...969..130L/abstract
 ---
