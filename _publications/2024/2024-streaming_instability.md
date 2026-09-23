@@ -8,7 +8,7 @@ pub_date:       "2024"
 # semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 #abstract: >-
 #  Gas turbulence in protoplanetary disks can persist with a physically motived ionization model. The midplane turbulence has the potential to drive dust grain collisional velocities that would result in grain destruction.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/Lim_etal_2024_cover.jpg
 authors:
   - Jeonghoon Lim
   - Jacob Simon
