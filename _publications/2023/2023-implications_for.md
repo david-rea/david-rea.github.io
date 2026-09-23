@@ -7,8 +7,8 @@ pub:            "The Planetary Science Journal"
 pub_date:       "2023"
 #semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
 #abstract: >-
-#  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/cover3.jpg
+# Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
+cover:          /assets/images/covers/Fu_etal_2023_cover.jpg
 authors:
   - Roger Fu
   - Sarah Steele
@@ -17,6 +17,6 @@ authors:
   - Joan Najita
   - David Rea
 links:
-  Paper: https://iopscience.iop.org/article/10.3847/PSJ/ace716
+  IOP: https://iopscience.iop.org/article/10.3847/PSJ/ace716
   ADS: https://ui.adsabs.harvard.edu/abs/2023PSJ.....4..151F/abstract
 ---
