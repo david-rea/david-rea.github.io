@@ -22,28 +22,28 @@ orcid: 0000-0002-5000-2747
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Ph.D. Candidate and NASA FINESST Fellow at Iowa State University, studying topics in planet formation with Dr. Jacob Simon.
+    I am a Ph.D. level astrophysicist with expertise in fluid dynamics, plasma physics, and high-performance computational computational modeling.
+    I design numerical experiments of physical problems, run massively-parallelized simulations on NSF and NASA supercomputers, 
+    and perform statistical and signal analyses on simulation results.
   </p>
   <p>
-    I use supercomputer simulations to directly model the environments around young stars, where planets are thought to form. 
-    My research interests include turbulence, plasma physics, protoplanetary disk ionization, computational fluid dynamics, 
-    and high-performance computing.
+    I recieved my B.S. in Physics from George Mason University in 2019 and my Ph.D. in Astrophysics studying with Dr. Jacob Simon at Iowa State 
+    University in 2026. In 2024 I was selected to recieve a NASA FINESST Fellowship, a highly competitive research grant that funded a self-designed and 
+    led project investigating planet formation processes in astrophysical accretion disks.
   </p>
 
 portrait_url: /assets/images/photos/me.jpg
-#ortrait_caption: >-
-# Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+portrait_caption: >-
+A handsome fellow.
 
 education:
 - name: Iowa State University
   logo: /assets/images/empty_300x200.png
-  position: >- 
-    Department of Physics and Astronomy <br/>
-    Ph.D. Student
-  date: Aug 2019 - present
+  position: Ph.D. Astrophysics
+  date: Aug 2019 - Aug 2026
 - name: George Mason University
   logo: /assets/images/empty_300x200.png
-  position: B.S. in Physics
+  position: B.S. Physics
   date: Aug 2016 - May 2019
 
 # experience:
@@ -55,5 +55,9 @@ education:
 awards:
 - name: Richard G. Patrick Teaching Excellence Award
   date: 2025
-- name: NASA FINESST Fellowship
+- name: NASA Future Investigators in NASA Earth and Space Science and Technology Fellowship
   date: 2024
+- name: George Mason University Dean's List
+  date: 2018 - 2019
+- name: George Mason University Mason Excellence Award
+  date: 2016
